@@ -149,7 +149,8 @@ p {
 }
 .footer hr {
   border-top: 1px solid #ffffff;
-}
+  width: 140px;
+  margin: 0;
 
 .footer p,
 .footer ul {
