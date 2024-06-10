@@ -30,9 +30,12 @@
   position: relative;
   color: white;
   padding: 20px;
+  margin-top: 5rem;
   border-radius: 8px;
 }
-
+main {
+  margin-top: 8rem;
+}
 .main-content {
   display: flex;
   align-items: center;
@@ -98,4 +101,19 @@
 
 .img-cover img {
   object-fit: cover;
+}
+
+.custom-width {
+  width: 196px;
+  object-fit: contain;
+}
+
+.text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+p {
+  line-height: 1.6;
 }
