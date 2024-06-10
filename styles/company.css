@@ -41,6 +41,9 @@ main h2 {
   margin-bottom: 15px;
   font-size: 2.5rem;
 }
+main p {
+  line-height: 30px;
+}
 .section2 img {
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
@@ -54,4 +57,7 @@ main h2 {
 }
 .section2 h2 {
   color: #e78168;
+}
+.col-md-6.order-md-1.p-0 {
+  height: 600px;
 }
