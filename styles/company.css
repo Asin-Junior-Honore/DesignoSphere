@@ -61,3 +61,27 @@ main p {
 .col-md-6.order-md-1.p-0 {
   height: 600px;
 }
+.section3 {
+  margin-top: 8rem;
+}
+.beforeimg::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 80px;
+  right: 0;
+  bottom: 0;
+  height: 65%;
+  width: 65%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-image: url(/assets/bg-pattern-hero-circle.svg);
+  border-radius: 50%;
+}
+
+.btn {
+  font-size: 1.25rem;
+  background-color: #e78168;
+  color: #fff;
+  padding: 10px 20px;
+}
