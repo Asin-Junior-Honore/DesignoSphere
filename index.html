@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Designo</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      .custom-width {
+        width: 196px;
+        object-fit: contain;
+      }
+
+      .navbar-nav .nav-link {
+        position: relative;
+        padding-bottom: 5px;
+        font-size: 20px;
+        font-weight: 600;
+      }
+
+      .navbar-nav .nav-link:hover::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 2px;
+        background-color: #e78168;
+      }
+
+      .navbar-brand img {
+        height: 50px;
+      }
+
+      .main-section {
+        background-color: #e78168;
+        overflow: hidden;
+        position: relative;
+        color: white;
+        padding: 20px;
+        border-radius: 8px;
+      }
+
+      .main-content {
+        display: flex;
+        align-items: center;
+        padding: 5rem;
+        justify-content: space-between;
+      }
+
+      .main-content img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+      }
+
+      .phone-image {
+        top: -18rem;
+      }
+
+      .main-section::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: 100% 17%;
+        background-image: url(/assets/bg-pattern-hero-circle.svg);
+      }
+
+      .position-relative img {
+        border-radius: 8px;
+      }
+
+      .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+        color: white;
+        border-radius: 8px;
+        opacity: 0;
+        transition: opacity 0.3s, background-color 0.3s;
+      }
+
+      .position-relative:hover .overlay {
+        opacity: 1;
+        background: rgba(255, 255, 255, 0.8);
+      }
+
+      .text {
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: center;
+      }
+      .img-cover {
+        height: 300px;
+      }
+      .img-cover img {
+        object-fit: cover;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container d-flex align-items-center">
+        <a class="navbar-brand" href="#">
+          <img
+            src="/assets/download-designo.png"
+            alt="Designo Logo"
+            class="custom-width"
+          />
+        </a>
+        <div class="ml-auto">
+          <div class="collapse navbar-collapse show" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main class="container mt-4 main-section">
+      <div class="main-content row">
+        <div class="col-md-6">
+          <h2 class="h1">
+            Award-winning custom designs and digital branding solutions
+          </h2>
+          <p class="my-4">
+            With over 10 years in the industry, we are experienced in creating
+            fully responsive websites, app design, and engaging brand
+            experiences. Find out more about our services.
+          </p>
+          <a href="#" class="btn btn-light btn-lg">Learn more</a>
+        </div>
+        <div class="col-md-6">
+          <img
+            src="/assets/image-hero-phone-ilusrator.png"
+            alt="Placeholder image"
+            class="phone-image position-absolute"
+          />
+        </div>
+      </div>
+    </main>
+
+    <main class="container mt-4">
+      <div class="row">
+        <div class="col-md-4 position-relative mb-4 mb-md-0 img-cover">
+          <img
+            src="https://designo-multipage-website.netlify.app/static/media/image-web-design.7790aab8.jpg"
+            alt="Image 1"
+            class="h-100 w-100 object-fit-cover"
+          />
+          <div class="overlay d-flex align-items-center justify-content-center">
+            <h3 class="text">Main Image Text</h3>
+          </div>
+        </div>
+        <div class="col-md-4 position-relative mb-4 mb-md-0">
+          <img
+            src="https://designo-multipage-website.netlify.app/static/media/image-graphic-design.59330714.jpg"
+            alt="Image 2"
+            class="img-fluid w-100 img-cover"
+          />
+          <div class="overlay d-flex align-items-center justify-content-center">
+            <h3 class="text">Image 2 Text</h3>
+          </div>
+        </div>
+        <div class="col-md-4 position-relative mb-4 mb-md-0">
+          <img
+            src="https://designo-multipage-website.netlify.app/static/media/image-graphic-design.59330714.jpg"
+            alt="Image 3"
+            class="img-fluid w-100 img-cover"
+          />
+          <div class="overlay d-flex align-items-center justify-content-center">
+            <h3 class="text">Image 3 Text</h3>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
