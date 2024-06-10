@@ -58,7 +58,8 @@ main p {
 .section2 h2 {
   color: #e78168;
 }
-.col-md-6.order-md-1.p-0 {
+.col-md-6.order-md-1.p-0,
+.section4 {
   height: 600px;
 }
 .section3 {
