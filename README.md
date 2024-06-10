@@ -10,7 +10,6 @@ DesignoSphere is a modern, responsive website template designed to showcase awar
 - [🔧 Installation](#installation)
 - [🖱️ Usage](#usage)
 - [🎨 Customization](#customization)
-- [📜 License](#license)
 - [🚀 Updates](#updates)
 
 ## 📺 Demo
