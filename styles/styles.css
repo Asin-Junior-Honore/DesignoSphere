@@ -122,11 +122,11 @@ p {
   content: "";
   position: absolute;
   top: 0px;
-  left: 100px;
+  left: 80px;
   right: 0;
   bottom: 0;
-  height: 50%;
-  width: 50%;
+  height: 65%;
+  width: 65%;
   background-repeat: no-repeat;
   background-position: bottom;
   background-image: url(/assets/bg-pattern-hero-circle.svg);
