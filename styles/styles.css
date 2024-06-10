@@ -117,3 +117,18 @@ main {
 p {
   line-height: 1.6;
 }
+
+.beforeimg::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 100px;
+  right: 0;
+  bottom: 0;
+  height: 50%;
+  width: 50%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-image: url(/assets/bg-pattern-hero-circle.svg);
+  border-radius: 50%;
+}
