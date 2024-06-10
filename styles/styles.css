@@ -132,3 +132,13 @@ p {
   background-image: url(/assets/bg-pattern-hero-circle.svg);
   border-radius: 50%;
 }
+
+.bg-custom {
+  background-color: #e78168;
+  color: white;
+}
+
+.btn {
+  font-size: 1.25rem;
+  padding: 10px 20px;
+}
