@@ -1,0 +1,25 @@
+.custom-width {
+    width: 196px;
+    object-fit: contain;
+  }
+  
+  .navbar-nav .nav-link {
+    position: relative;
+    padding-bottom: 5px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .navbar-nav .nav-link:hover::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    background-color: #e78168;
+  }
+  
+  .navbar-brand img {
+    height: 50px;
+  }
