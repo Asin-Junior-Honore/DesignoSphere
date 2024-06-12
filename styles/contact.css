@@ -88,7 +88,8 @@ main {
   height: 65%;
   width: 65%;
   background-repeat: no-repeat;
-  background-position: bottom;a
+  background-position: bottom;
   background-image: url(/assets/bg-pattern-hero-circle.svg);
   border-radius: 50%;
 }
+
