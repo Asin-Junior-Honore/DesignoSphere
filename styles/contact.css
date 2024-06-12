@@ -43,16 +43,6 @@ main {
   justify-content: space-between;
 }
 
-.main-content img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
-}
-
-.phone-image {
-  top: -18rem;
-}
-
 .main-section::before {
   content: "";
   position: absolute;
