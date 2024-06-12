@@ -23,3 +23,46 @@
 .navbar-brand img {
   height: 50px;
 }
+
+.main-section {
+  background-color: #e78168;
+  overflow: hidden;
+  position: relative;
+  color: white;
+  padding: 20px;
+  margin-top: 5rem;
+  border-radius: 8px;
+}
+main {
+  margin-top: 8rem;
+}
+.main-content {
+  display: flex;
+  align-items: center;
+  padding: 5rem;
+  justify-content: space-between;
+}
+
+.main-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.phone-image {
+  top: -18rem;
+}
+
+.main-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: 100% 17%;
+  background-image: url(/assets/bg-pattern-hero-circle.svg);
+}
