@@ -43,6 +43,10 @@
   display: flex;
   gap: 20px;
 }
+.container h2 {
+  color: #e78168;
+  font-weight: 500;
+}
 .location-image img {
   height: auto;
   border-radius: 8px;
