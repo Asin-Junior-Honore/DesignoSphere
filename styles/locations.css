@@ -26,23 +26,24 @@
 .location-container {
   padding: 20px;
   flex-wrap: nowrap;
+  gap: 5rem;
   border-radius: 8px;
   margin-top: 20px;
 }
 .location-details {
-  margin-right: 0;
+  margin: 0;
   display: flex;
   flex-direction: column;
+  padding-left: 4rem;
   justify-content: center;
   border-radius: 10px;
-  background: #e78168;
+  background: #f7ded8;
 }
 .location-text {
   display: flex;
   gap: 20px;
 }
 .location-image img {
-  max-width: 100%;
   height: auto;
   border-radius: 8px;
 }
