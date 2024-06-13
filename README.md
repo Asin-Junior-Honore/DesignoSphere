@@ -83,7 +83,5 @@ Update the CSS within the `<style>` tags in the `index.html` file to change the 
 
 More updates will be added to enhance the functionality and features of DesignoSphere. Stay tuned for new improvements and additions!
 
-## 🤝 Contributors
 
-💻 Full-Stack MERN Dev | 🕵️‍♂️ Web Scraping Pro | 💡 PHP & MySQL Expert | Open Source Contributor | Transforming Data into Digital Gold
 
