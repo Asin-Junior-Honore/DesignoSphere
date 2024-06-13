@@ -93,3 +93,26 @@ main {
   border-radius: 50%;
 }
 
+.footer {
+  background-color: black;
+  color: #ffffff;
+}
+.footer hr {
+  border-top: 1px solid #ffffff;
+  width: 140px;
+  margin: 0;
+}
+
+.footer p,
+.footer ul {
+  margin-bottom: 1rem;
+}
+
+.footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
