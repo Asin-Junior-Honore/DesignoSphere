@@ -4,7 +4,8 @@
 
 DesignoSphere is a modern, responsive website template designed to showcase award-winning custom designs and digital branding solutions. This template leverages Bootstrap 4 for a responsive and flexible layout. It is inspired by a challenge from Frontend Mentor, So I decided to play around with some code and explore new challenges and designs just to try something new.✌️
 
-![DesignoSphere Screenshot](path-to-your-screenshot.png)
+![DesignoSphere Screenshot](![Screenshot (23)](https://github.com/Asin-Junior-Honore/DesignoSphere/assets/135389589/91b506aa-9beb-4416-949d-451f8e3c29b5)
+)
 
 ## 📋 Table of Contents
 
