@@ -14,7 +14,6 @@ DesignoSphere is a modern, responsive website template designed to showcase awar
 - [🖱️ Usage](#usage)
 - [🎨 Customization](#customization)
 - [🚀 Updates](#updates)
-- [🤝 Contributors](#contributors)
 
 ## 📺 Demo
 
@@ -88,8 +87,3 @@ More updates will be added to enhance the functionality and features of DesignoS
 
 💻 Full-Stack MERN Dev | 🕵️‍♂️ Web Scraping Pro | 💡 PHP & MySQL Expert | Open Source Contributor | Transforming Data into Digital Gold
 
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-This should ensure that the content is properly formatted and ready to be used as a README.md file on GitHub.
