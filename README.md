@@ -1,6 +1,5 @@
-Sure, here is the properly formatted `README.md` with the additional content and placeholder for a screenshot:
+Here's the updated `README.md` without the code snippet formatting:
 
-```markdown
 # 🌐 DesignoSphere
 
 DesignoSphere is a modern, responsive website template designed to showcase award-winning custom designs and digital branding solutions. This template leverages Bootstrap 4 for a responsive and flexible layout. It is inspired by a challenge from Frontend Mentor, and I decided to explore and enhance my skills by taking on this challenge.
@@ -93,10 +92,5 @@ More updates will be added to enhance the functionality and features of DesignoS
 ## 📜 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
 
-### Key Additions:
-
-1. Mentioned that the project is inspired by a challenge from Frontend Mentor.
-2. Included a placeholder for a screenshot image.
-3. Updated the **Contributors** section with the new content order.
+This should ensure that the content is properly formatted and ready to be used as a README.md file on GitHub.
