@@ -1,4 +1,4 @@
-Here's the updated `README.md` without the code snippet formatting:
+
 
 # 🌐 DesignoSphere
 
@@ -15,7 +15,6 @@ DesignoSphere is a modern, responsive website template designed to showcase awar
 - [🎨 Customization](#customization)
 - [🚀 Updates](#updates)
 - [🤝 Contributors](#contributors)
-- [📜 License](#license)
 
 ## 📺 Demo
 
