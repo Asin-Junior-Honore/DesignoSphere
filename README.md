@@ -1,6 +1,11 @@
+Sure, here's the updated `README.md` with the additional content and space for a screenshot:
+
+````markdown
 # 🌐 DesignoSphere
 
-DesignoSphere is a modern, responsive website template designed to showcase award-winning custom designs and digital branding solutions. This template leverages Bootstrap 4 for a responsive and flexible layout.
+DesignoSphere is a modern, responsive website template designed to showcase award-winning custom designs and digital branding solutions. This template leverages Bootstrap 4 for a responsive and flexible layout. It is inspired by a challenge from Frontend Mentor, and I decided to explore and enhance my skills by taking on this challenge.
+
+![DesignoSphere Screenshot](path-to-your-screenshot.png)
 
 ## 📋 Table of Contents
 
@@ -10,6 +15,8 @@ DesignoSphere is a modern, responsive website template designed to showcase awar
 - [🖱️ Usage](#usage)
 - [🎨 Customization](#customization)
 - [🚀 Updates](#updates)
+- [🤝 Contributors](#contributors)
+- [📜 License](#license)
 
 ## 📺 Demo
 
@@ -31,6 +38,7 @@ To use DesignoSphere, you can either clone the repository or download the ZIP fi
 ```bash
 git clone https://github.com/yourusername/designosphere.git
 ```
+````
 
 ### Download the ZIP
 
@@ -78,3 +86,20 @@ Update the CSS within the `<style>` tags in the `index.html` file to change the 
 ## 🚀 Updates
 
 More updates will be added to enhance the functionality and features of DesignoSphere. Stay tuned for new improvements and additions!
+
+## 🤝 Contributors
+
+💻 Full-Stack MERN Dev | 🕵️‍♂️ Web Scraping Pro | 💡 PHP & MySQL Expert | Open Source Contributor | Transforming Data into Digital Gold
+
+## 📜 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+```
+
+### Key Additions:
+
+1. Mentioned that the project is inspired by a challenge from Frontend Mentor.
+2. Included a placeholder for a screenshot image.
+3. Updated the **Contributors** section with the new content order.
+```
